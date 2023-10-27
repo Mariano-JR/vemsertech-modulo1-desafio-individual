@@ -1,4 +1,4 @@
-const clients = () => {
+const clients = () => {   // Lista de Clientes
   return [
     {
       name: "Leanne Graham",
@@ -62,4 +62,4 @@ const clients = () => {
   ]
 }
 
-module.exports = clients;
+module.exports = clients;   // Exportando lista de clientes

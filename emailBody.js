@@ -1,4 +1,4 @@
-const emailBody = (name) => {
+const emailBody = (name) => {       // Corpo do email
     return `
         Olá ${name},
 
@@ -28,4 +28,4 @@ const emailBody = (name) => {
     `
 }
 
-module.exports = emailBody;
+module.exports = emailBody;     // Exportando corpo do email
